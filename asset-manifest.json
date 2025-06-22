@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wasikaran/portfolio.git/static/css/main.8422cca5.css",
+    "main.js": "/wasikaran/portfolio.git/static/js/main.74e9926c.js",
+    "static/js/453.b2f5ac03.chunk.js": "/wasikaran/portfolio.git/static/js/453.b2f5ac03.chunk.js",
+    "static/media/Hero-porfolio-img.jpg": "/wasikaran/portfolio.git/static/media/Hero-porfolio-img.84f1965335bc952c36e3.jpg",
+    "index.html": "/wasikaran/portfolio.git/index.html",
+    "main.8422cca5.css.map": "/wasikaran/portfolio.git/static/css/main.8422cca5.css.map",
+    "main.74e9926c.js.map": "/wasikaran/portfolio.git/static/js/main.74e9926c.js.map",
+    "453.b2f5ac03.chunk.js.map": "/wasikaran/portfolio.git/static/js/453.b2f5ac03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8422cca5.css",
+    "static/js/main.74e9926c.js"
+  ]
+}
