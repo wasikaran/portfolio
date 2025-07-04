@@ -1,6 +1,6 @@
 {
+  "homepage": "https://wasikaran.github.io/portfolio",
   "name": "porfolio",
-  "homepage": "https://github.com/wasikaran/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
