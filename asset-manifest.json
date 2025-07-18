@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3b90fa21.css",
-    "main.js": "/portfolio/static/js/main.d91a28c8.js",
-    "static/js/453.b2f5ac03.chunk.js": "/portfolio/static/js/453.b2f5ac03.chunk.js",
-    "static/media/Hero-porfolio-img.jpg": "/portfolio/static/media/Hero-porfolio-img.84f1965335bc952c36e3.jpg",
+    "main.css": "/portfolio/static/css/main.b39b9da4.css",
+    "main.js": "/portfolio/static/js/main.db8841c1.js",
+    "static/js/453.6cf04f4b.chunk.js": "/portfolio/static/js/453.6cf04f4b.chunk.js",
+    "static/media/safari-zoo.png": "/portfolio/static/media/safari-zoo.b310b7f72ab34765fe3d.png",
+    "static/media/hawaan.png": "/portfolio/static/media/hawaan.e0ce06cd827260df83a7.png",
+    "static/media/newssMonkey.jpg": "/portfolio/static/media/newssMonkey.66e73f646440d46b86e3.jpg",
+    "static/media/abgk-welfare.png": "/portfolio/static/media/abgk-welfare.f72fc6e910098cd96c1f.png",
+    "static/media/online-store.png": "/portfolio/static/media/online-store.4a463a5ac25b203248af.png",
+    "static/media/multiTools.jpg": "/portfolio/static/media/multiTools.4cc9abfa6c002b97aa81.jpg",
+    "static/media/data-finder.jpg": "/portfolio/static/media/data-finder.9b2117ce33dab2b8151e.jpg",
     "static/media/profile-1.webp": "/portfolio/static/media/profile-1.82ee6c9a86c7ced0df16.webp",
+    "static/media/textutils.jpg": "/portfolio/static/media/textutils.e179181f96bc0c363181.jpg",
+    "static/media/notepad.jpg": "/portfolio/static/media/notepad.0e55684399f53494ac97.jpg",
+    "static/media/quiz-app.jpg": "/portfolio/static/media/quiz-app.ca14271f8d11b8c0aa43.jpg",
+    "static/media/cv-builder.jpg": "/portfolio/static/media/cv-builder.773501a4c6189b14e412.jpg",
+    "static/media/snake-game.jpg": "/portfolio/static/media/snake-game.216ffad45e6c906aecda.jpg",
     "index.html": "/portfolio/index.html",
-    "main.3b90fa21.css.map": "/portfolio/static/css/main.3b90fa21.css.map",
-    "main.d91a28c8.js.map": "/portfolio/static/js/main.d91a28c8.js.map",
-    "453.b2f5ac03.chunk.js.map": "/portfolio/static/js/453.b2f5ac03.chunk.js.map"
+    "main.b39b9da4.css.map": "/portfolio/static/css/main.b39b9da4.css.map",
+    "main.db8841c1.js.map": "/portfolio/static/js/main.db8841c1.js.map",
+    "453.6cf04f4b.chunk.js.map": "/portfolio/static/js/453.6cf04f4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b90fa21.css",
-    "static/js/main.d91a28c8.js"
+    "static/css/main.b39b9da4.css",
+    "static/js/main.db8841c1.js"
   ]
 }
