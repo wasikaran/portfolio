@@ -11,7 +11,7 @@ import datafinder from '../images/data-finder.jpg'
 import abgk from '../images/abgk-welfare.png'
 import safarizoo from '../images/safari-zoo.png'
 import onlineStore from '../images/online-store.png'
-// import hawaan from '../images/textutils.jpg'
+import hawaan from '../images/hawaan.png'
 
 const Portfolio = () => {
   useEffect(() => {
@@ -148,7 +148,7 @@ const Portfolio = () => {
 
             {/* ==== PHP - 2 Cards ==== */}
             {[
-              ['Hawaan', '', '', 'Full Stack E-commerce with  admin dashboard']
+              ['Hawaan', `${hawaan}`, 'https://github.com/wasikaran/Hawaan.git', 'Full Stack E-commerce with  admin dashboard']
             ].map(([title, img, url, desc], i) => (
               <div key={i} className="col-lg-6 col-md-6 portfolio-item isotope-item filter-php">
                 <div className="portfolio-card">
