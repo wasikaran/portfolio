@@ -1,5 +1,17 @@
 import React, { useEffect } from 'react';
 import Isotope from 'isotope-layout';
+import textutils from '../images/textutils.jpg'
+import cvbuilder from '../images/cv-builder.jpg'
+import newsMonkey from '../images/newssMonkey.jpg'
+import notepad from '../images/notepad.jpg'
+import quizapp from '../images/quiz-app.jpg'
+import multiTools from '../images/multiTools.jpg'
+import snakegame from '../images/snake-game.jpg'
+import datafinder from '../images/data-finder.jpg'
+import abgk from '../images/abgk-welfare.png'
+import safarizoo from '../images/safari-zoo.png'
+import onlineStore from '../images/online-store.png'
+// import hawaan from '../images/textutils.jpg'
 
 const Portfolio = () => {
   useEffect(() => {
@@ -55,47 +67,49 @@ const Portfolio = () => {
           </div>
 
           {/* Cards */}
-          <div className="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-            {/* ==== REACT - 6 Cards ==== */}
+       <div className="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+  {[
+    ['Quiz App', `${quizapp}`,'https://wasikaran.github.io/quiz-app/', 'MCQs with timer, subject & difficulty levels'],
+    ['TextUtils', `${textutils}`,'https://wasikaran.github.io/First-React-Web/', 'Text formatting tool with dark mode & summary'],
+    ['Notepad', `${notepad}`,'https://wasikaran.github.io/notepad/', 'CRUD-based notes app using localStorage'],
+    ['NewsMonkey',` ${newsMonkey}`,'https://wasikaran.github.io/newsMonkey/', 'Live news fetching via News API with infinite scroll'],
+    ['CV Builder', `${cvbuilder}`,'https://wasikaran.github.io/cv-builder/', 'CV form with multiple templates and download'],
+    ['Multi Tool Dashboard', `${multiTools}`, 'https://wasikaran.github.io/tools-app/', 'Tools like mechanical watch, stop watch and calculator']
+  ].map(([title, img, link, desc], i) => (
+    <div key={i} className="col-lg-6 col-md-6 portfolio-item isotope-item filter-react">
+      <div className="portfolio-card">
+        <div className="portfolio-image">
+          <img src={img} className="img-fluid" alt={title} />
+          <div className="portfolio-overlay">
+            <div className="portfolio-actions">
+              <a target='_blank' href={link} className="glightbox preview-link"><i className="bi bi-eye"></i></a>
+            </div>
+          </div>
+        </div>
+        <div className="portfolio-content">
+          <span className="category">REACT</span>
+          <h3>{title}</h3>
+          <p>{desc}</p>
+        </div>
+      </div>
+    </div>
+  ))}
+
+
+            {/* ==== HTML / CSS - 2 Cards ==== */}
             {[
-              ['Quiz App', 'react1.webp','https://wasikaran.github.io/quiz-app/', 'MCQs with timer, subject & difficulty levels'],
-              ['TextUtils', 'react2.webp','https://wasikaran.github.io/First-React-Web/', 'Text formatting tool with dark mode & summary'],
-              ['Notepad', 'react3.webp','https://wasikaran.github.io/notepad/', 'CRUD-based notes app using localStorage'],
-              ['NewsMonkey', 'react4.webp','https://wasikaran.github.io/newsMonkey/', 'Live news fetching via News API with infinite scroll'],
-              ['CV Builder', 'react5.webp','https://wasikaran.github.io/cv-builder/', 'CV form with multiple templates and download'],
-              ['Multi Tool Dashboard', 'react6.webp', 'https://wasikaran.github.io/tools-app/', 'Tools like mechanical watch, stop watch and calculator']
-            ].map(([title, img, link, desc], i) => (
-              <div key={i} className="col-lg-6 col-md-6 portfolio-item isotope-item filter-react">
+              ['Central safari Zoo', `${safarizoo}`, 'https://hamdev22445.github.io/Central-Zoo/', 'Built with modern CSS grid/flex'],
+              ['online store', `${onlineStore}`,'www.shopsnexuspk.com', 'Responsive layout with fully connected to database for manage records'],
+                            ['A.B.G.K Welfare Register® ',`${abgk}`, 'www.abgkwelfare.com',  'A single-page responsive website with professional style and structure .'],
+
+            ].map(([title, img, url, desc], i) => (
+              <div key={i} className="col-lg-6 col-md-6 portfolio-item isotope-item filter-html">
                 <div className="portfolio-card">
                   <div className="portfolio-image">
                     <img src={`${img}`} className="img-fluid" alt="" />
                     <div className="portfolio-overlay">
                       <div className="portfolio-actions">
-                        <a target='_blank' href={link} className="glightbox preview-link"><i className="bi bi-eye"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="portfolio-content">
-                    <span className="category">REACT</span>
-                    <h3>{title}</h3>
-                    <p>{desc}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-
-            {/* ==== HTML / CSS - 2 Cards ==== */}
-            {[
-              ['Central safari Zoo', 'html1.webp', 'Built with modern CSS grid/flex'],
-              ['Blog Website', 'html2.webp', 'Responsive layout with animations']
-            ].map(([title, img, desc], i) => (
-              <div key={i} className="col-lg-6 col-md-6 portfolio-item isotope-item filter-html">
-                <div className="portfolio-card">
-                  <div className="portfolio-image">
-                    <img src={`assets/img/portfolio/${img}`} className="img-fluid" alt="" />
-                    <div className="portfolio-overlay">
-                      <div className="portfolio-actions">
-                        <a href={`assets/img/portfolio/${img}`} className="glightbox preview-link"><i className="bi bi-eye"></i></a>
+                        <a href={`${url}`} className="glightbox preview-link"><i className="bi bi-eye"></i></a>
                       </div>
                     </div>
                   </div>
@@ -110,16 +124,16 @@ const Portfolio = () => {
 
             {/* ==== JS / API - 2 Cards ==== */}
             {[
-              ['CNIC Data Finder', 'js1.webp', 'Search any individual’s biodata using CNIC — just like NADRA'],
-              ['Currency Converter', 'js2.webp', 'Real-time FX rates using ExchangeRate API']
-            ].map(([title, img, desc], i) => (
+              ['CNIC Data Finder', `${datafinder}`, 'https://wasikaran.github.io/data-finder/', 'Search any individual’s biodata using CNIC — just like NADRA'],
+              ['MINI Games', `${snakegame}`, 'https://wasikaran.github.io/js-games/', 'Created MINI JS Games with only HTML CSS & JS without exerternal libraries ']
+            ].map(([title, img, url, desc], i) => (
               <div key={i} className="col-lg-6 col-md-6 portfolio-item isotope-item filter-js">
                 <div className="portfolio-card">
                   <div className="portfolio-image">
-                    <img src={`assets/img/portfolio/${img}`} className="img-fluid" alt="" />
+                    <img src={`${img}`} className="img-fluid" alt="" />
                     <div className="portfolio-overlay">
                       <div className="portfolio-actions">
-                        <a href={`assets/img/portfolio/${img}`} className="glightbox preview-link"><i className="bi bi-eye"></i></a>
+                        <a href={url} className="glightbox preview-link"><i className="bi bi-eye"></i></a>
                       </div>
                     </div>
                   </div>
@@ -134,16 +148,15 @@ const Portfolio = () => {
 
             {/* ==== PHP - 2 Cards ==== */}
             {[
-              ['A.B.G.K Welfare Register® ', 'php1.webp', 'A single-page PHP website fully connected to a database for managing welfare registrations efficiently.'],
-              ['Online Store', 'php2.webp', 'Full Stack E-commerce with   admin dashboard']
-            ].map(([title, img, desc], i) => (
+              ['Hawaan', '', '', 'Full Stack E-commerce with  admin dashboard']
+            ].map(([title, img, url, desc], i) => (
               <div key={i} className="col-lg-6 col-md-6 portfolio-item isotope-item filter-php">
                 <div className="portfolio-card">
                   <div className="portfolio-image">
-                    <img src={`assets/img/portfolio/${img}`} className="img-fluid" alt="" />
+                    <img src={`${img}`} className="img-fluid" alt="" />
                     <div className="portfolio-overlay">
                       <div className="portfolio-actions">
-                        <a href={`assets/img/portfolio/${img}`} className="glightbox preview-link"><i className="bi bi-eye"></i></a>
+                        <a href={`${url}`} className="glightbox preview-link"><i className="bi bi-eye"></i></a>
                       </div>
                     </div>
                   </div>

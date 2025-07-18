@@ -1963,7 +1963,6 @@ section,
   /* Add your styles here */
 }
 .hero-container {
-  background-image: url('./images/Hero-porfolio-img.jpg'); /* use your actual image path */
   background-size: cover;
   background-position: center;
   height: 100vh;

@@ -1,7 +1,6 @@
 // src/components/HeroSection.jsx
 import React from 'react';
 import '../App.css'; // For custom CSS
-import Image from '../images/profile-1.webp'
 import { Link } from 'react-scroll';
 const HeroSection = () => {
   return (
@@ -70,7 +69,7 @@ const HeroSection = () => {
           </div>
           <div class="col-lg-6">
             <div class="hero-image">
-              <img src={Image} alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300"/>
+              <img src={'images/profile-1.jpg'} alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300"/>
               <div class="shape-1"></div>
               <div class="shape-2"></div>
             </div>
